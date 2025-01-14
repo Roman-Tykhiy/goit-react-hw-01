@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import css from "./FriendList.module.css";
+import css from "./FriendListItem.module.css";
 const FriendListItem = ({ friend }) => {
     return (        
          <div className={css.listItem}>
