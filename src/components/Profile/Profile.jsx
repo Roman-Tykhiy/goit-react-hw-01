@@ -24,7 +24,7 @@ const Profile = ({ name, tag, location, image, stats: {followers, views, likes}}
     </li>
       <li className={css.listItemBord}>
         <span className={css.text}>Views</span>
-      <span>{views}</span>
+      <span className={css.text}>{views}</span>
     </li>
       <li className={css.listItem}>
         <span className={css.text}>Likes</span>
